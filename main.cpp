@@ -7,7 +7,7 @@ using namespace std;
 void draw_circle(double x, double y, double radius)
 {
 
-    double twopi=2*3.14159;
+    double twopi=2*3.14159; //variable value
     glBegin(GL_POLYGON);
     glVertex2f(x,y); //center
     for(int i=0; i<=1000; i++)
